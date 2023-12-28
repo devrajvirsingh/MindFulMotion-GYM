@@ -1,0 +1,642 @@
+
+
+.my-nav {
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
+
+@media only screen and (max-width:500px) {
+    #nav-barr a {
+        position: relative;
+        right: 55px;
+        width: 100px;
+    }
+
+    .my-nav li {
+        margin-left: 70px;
+    }
+
+    .my-nav button {
+        margin: 5px 0;
+
+    }
+
+    #sec-2para {
+        font-size: 15px !important;
+        margin-top: 20px !important;
+    }
+
+    #sec-2paragraph {
+        font-size: 11px !important;
+        margin-top: 20px !important;
+    }
+
+    #sec-2imgs {
+        text-align: center;
+        margin-top: 20px !important;
+    }
+
+    #sec-3 {
+        font-size: 10px !important;
+        margin-top: 2px;
+    }
+
+    #sec-3div {
+        margin-top: -40px !important;
+    }
+
+    #sec-3div-img {
+        margin-top: 5px !important;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #sec-4 {
+        font-size: 19px !important;
+    }
+
+    #sec-4para {
+        font-size: 15px !important;
+        margin-top: 15px !important;
+    }
+
+    #sec-4grid {
+        margin-top: 16px !important;
+        margin-left: 5px;
+    }
+
+    #sec-4grid-item {
+        margin: 3px 10px;
+    }
+
+    #sec-4grid-item img {
+        height: 60px;
+        width: 60px;
+        margin-left: 22px;
+    }
+
+    #sec-4grid-item h3 {
+        font-size: 12px !important;
+        font-weight: bolder;
+    }
+
+    #sec-4grid-item p {
+        font-size: 12px !important;
+
+    }
+
+    #sec-5 {
+        font-size: 10px !important;
+        margin-top: 7px !important;
+    }
+
+    #formm {
+        margin-top: 20px !important;
+    }
+
+    #sec-5-form {
+        margin-top: -20px !important;
+    }
+
+    #sec-5-form label {
+        font-size: 10px !important;
+        width: 110px;
+        text-align: left;
+        margin-bottom: 2px;
+    }
+
+    #sec-5-form input {
+        height: 12px;
+        background: transparent;
+        border-top: 0;
+        border-right: 0;
+        border-radius: 3px;
+        border-left: 0;
+    }
+
+    #sec-5-form button {
+        height: 20px;
+        width: 60px;
+        font-size: 10px;
+        color: #ffdd00;
+        background: transparent;
+        border: 2px solid #ffdd00;
+        padding: 2px 3px;
+        margin-top: -20px;
+    }
+
+}
+
+@media only screen and (min-width:502px) and (max-width:767px) {
+
+    #nav-barr a {
+        position: relative;
+        right: 55px;
+        width: 100px;
+    }
+
+    .my-nav li {
+        margin-left: 70px;
+    }
+
+    .my-nav button {
+        margin: 5px 0;
+
+    }
+
+    #sec-2para {
+        font-size: 20px !important;
+        margin-top: 5px !important;
+    }
+
+    #sec-2paragraph {
+        font-size: 15px !important;
+        margin-top: 20px !important;
+    }
+
+    #sec-2imgs {
+        text-align: center;
+        margin-top: 20px !important;
+    }
+
+    #sec-3 {
+        font-size: 15px !important;
+        margin-top: -2px;
+    }
+
+    #sec-3div {
+        margin-top: -15px !important;
+    }
+
+    #sec-3div-img {
+        margin-top: 23px !important;
+        margin-bottom: 23px !important;
+        width: 60%;
+        
+        margin: 0px auto;
+    }
+
+    #sec-4 {
+        font-size: 19px !important;
+        margin-top: 100px !important;
+    }
+
+    #sec-4para {
+        font-size: 15px !important;
+        margin-top: 25px !important;
+    }
+
+    #sec-4grid {
+        margin-top: 25px !important;
+        margin-left: 5px;
+    }
+
+    #sec-4grid-item {
+        margin: 3px 10px;
+    }
+
+    #sec-4grid-item img {
+        height: 70px;
+        width: 70px;
+        margin-left: 40px;
+    }
+
+    #sec-4grid-item h3 {
+        font-size: 12px !important;
+        font-weight: bolder;
+    }
+
+    #sec-4grid-item p {
+        font-size: 12px !important;
+
+    }
+
+    #sec-5 {
+        font-size: 12px !important;
+        margin-top: 2px !important;
+    }
+
+    #formm {
+        margin-top: 30px !important;
+    }
+
+    #sec-5-form {
+        margin-top: -10px !important;
+    }
+
+    #sec-5-form label {
+        font-size: 11px !important;
+        width: 240px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    #sec-5-form input {
+        height: 15px;
+        background: transparent;
+        border-top: 0;
+        border-right: 0;
+        border-radius: 3px;
+        border-left: 0;
+    }
+
+    #sec-5-form button {
+        height: 25px;
+        width: 60px;
+        font-size:12px;
+        color: #ffdd00;
+        background: transparent;
+        border: 2px solid #ffdd00;
+        padding: 2px 3px;
+        margin-top: 15px;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:900px) {
+
+    #nav-barr a {
+        position: relative;
+        right: 55px;
+        width: 100px;
+    }
+
+    .my-nav li {
+        margin-left: 70px;
+    }
+
+    .my-nav button {
+        margin: 5px 0;
+
+    }
+
+    #sec-2para {
+        font-size: 20px !important;
+        margin-top: 5px !important;
+    }
+
+    #sec-2paragraph {
+        font-size: 15px !important;
+        margin-top: 20px !important;
+    }
+
+    #sec-2imgs {
+        text-align: center;
+        margin-top: 20px !important;
+    }
+
+    #sec-3 {
+        font-size: 15px !important;
+        margin-top: -2px;
+    }
+
+    #sec-3div {
+        margin-top: -15px !important;
+    }
+
+    #sec-3div-img {
+        margin-top: 23px !important;
+        margin-bottom: 23px !important;
+        width: 60%;
+        
+        margin: 0px auto;
+    }
+
+    #sec-4 {
+        font-size: 22pxpx !important;
+        margin-top: 160px !important;
+    }
+
+    #sec-4para {
+        font-size: 15px !important;
+        margin-top: 25px !important;
+    }
+
+    #sec-4grid {
+        margin-top: 25px !important;
+        margin-left: 5px;
+    }
+
+    #sec-4grid-item {
+        margin: 3px 10px;
+    }
+
+    #sec-4grid-item img {
+        height: 90px;
+        width: 90px;
+        margin-left: 40px;
+    }
+
+    #sec-4grid-item h3 {
+        font-size: 18px !important;
+        font-weight: bolder;
+    }
+
+    #sec-4grid-item p {
+        font-size: 18px !important;
+
+    }
+
+    #sec-5 {
+        font-size: 12px !important;
+        margin-top: 20px !important;
+    }
+
+    #formm {
+        margin-top: 35px !important;
+    }
+
+    #sec-5-form {
+        margin-top: 10px !important;
+    }
+
+    #sec-5-form label {
+        font-size: 11px !important;
+        width: 260px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    #sec-5-form input {
+        height: 7px;
+        background: transparent;
+        border-top: 0;
+        border-right: 0;
+        border-radius: 3px;
+        border-left: 0;
+    }
+
+    #sec-5-form button {
+        height: 25px;
+        width: 60px;
+        font-size:12px;
+        color: #ffdd00;
+        background: transparent;
+        border: 2px solid #ffdd00;
+        padding: 2px 3px;
+        margin-top: 15px;
+    }
+}
+
+
+@media only screen and (min-width:901px) and (max-width:1200px) {
+
+    #nav-barr a {
+        position: relative;
+        right: 55px;
+        width: 100px;
+    }
+
+    .my-nav li {
+        position: relative;
+        left: 50px;
+        margin-left: 50px;
+    }
+
+    .my-nav button {
+        margin: 5px 0;
+
+    }
+
+    #sec-2para {
+        font-size: 20px !important;
+        margin-top: 5px !important;
+    }
+
+    #sec-2paragraph {
+        font-size: 15px !important;
+        margin-top: 20px !important;
+    }
+
+    #sec-2imgs {
+        text-align: center;
+        margin-top: 20px !important;
+    }
+
+    #sec-3 {
+        font-size: 28px !important;
+        margin-top: -2px;
+    }
+
+    #sec-3div {
+        margin-top: -15px !important;
+    }
+
+    #sec-3div-img {
+        margin-top: 23px !important;
+        margin-bottom: 23px !important;
+        width: 75%;
+        
+        margin: 0px auto;
+    }
+
+    #sec-4 {
+        font-size: 22pxpx !important;
+        margin-top: 160px !important;
+    }
+
+    #sec-4para {
+        font-size: 15px !important;
+        margin-top: 25px !important;
+    }
+
+    #sec-4grid {
+        margin-top: 25px !important;
+        margin-left: 5px;
+    }
+
+    #sec-4grid-item {
+        margin: 3px 10px;
+    }
+
+    #sec-4grid-item img {
+        height: 80px;
+        width: 80px;
+        margin-left: 40px;
+    }
+
+    #sec-4grid-item h3 {
+        font-size: 20px !important;
+        font-weight: bolder;
+    }
+
+    #sec-4grid-item p {
+        font-size: 15px !important;
+
+    }
+
+    #sec-5 {
+        font-size: 18px !important;
+        margin-top: 20px !important;
+    }
+
+    #formm {
+        margin-top: 40px !important;
+    }
+
+    #sec-5-form {
+        margin-top: 15px !important;
+    }
+
+    #sec-5-form label {
+        font-size: 15px !important;
+        width: 300px;
+        text-align: left;
+        margin-bottom: 14px;
+    }
+
+    #sec-5-form input {
+        height: 7px;
+        background: transparent;
+        border-top: 0;
+        border-right: 0;
+        border-radius: 3px;
+        border-left: 0;
+    }
+
+    #sec-5-form button {
+        height: 30px;
+        width: 60px;
+        font-size:12px;
+        color: #ffdd00;
+        background: transparent;
+        border: 2px solid #ffdd00;
+        padding: 3px 5px;
+        margin-top: 15px;
+    }
+}
+
+
+@media only screen and (min-width:1201px) and (max-width:1600px) {
+
+    #nav-barr a {
+        position: relative;
+        right: 55px;
+        width: 100px;
+    }
+    .my-nav{
+        position: relative;
+        left: 220px;
+    }
+
+    .my-nav li {
+        position: relative;
+        left: 50px;
+        margin-left: 10px;
+    }
+
+    .my-nav button {
+        margin: 5px 0;
+
+    }
+
+    #sec-2para {
+        font-size: 25px !important;
+        margin-top: 10px !important;
+    }
+
+    #sec-2paragraph {
+        font-size: 20px !important;
+        margin-top: 25px !important;
+    }
+
+    #sec-2imgs {
+        text-align: center;
+        margin-top: 20px !important;
+    }
+
+    #sec-3 {
+        font-size: 35px !important;
+        margin-top: 0px;
+    }
+
+    #sec-3div {
+        margin-top: 0px !important;
+    }
+
+    #sec-3div-img {
+        margin-top: 28px !important;
+        margin-bottom: 28px !important;
+        width: 80%;
+        
+        margin: 0px auto;
+    }
+
+    #sec-4 {
+        font-size: 22pxpx !important;
+        margin-top: 200px !important;
+    }
+
+    #sec-4para {
+        font-size: 25px !important;
+        margin-top: 25px !important;
+    }
+
+    #sec-4grid {
+        margin-top: 25px !important;
+        margin-left: 5px;
+    }
+
+    #sec-4grid-item {
+        margin: 3px 10px;
+    }
+
+    #sec-4grid-item img {
+        height: 80px;
+        width: 80px;
+        margin-left: 40px;
+    }
+
+    #sec-4grid-item h3 {
+        font-size: 25px !important;
+        font-weight: bolder;
+    }
+
+    #sec-4grid-item p {
+        font-size: 22px !important;
+
+    }
+
+    #sec-5 {
+        font-size: 30px !important;
+        margin-top: 20px !important;
+    }
+
+    #formm {
+        margin-top: 40px !important;
+    }
+
+    #sec-5-form {
+        margin-top: 15px !important;
+    }
+
+    #sec-5-form label {
+        font-size: 20px !important;
+        width: 500px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    #sec-5-form input {
+        height: 7px;
+        background: transparent;
+        border-top: 0;
+        border-right: 0;
+        border-radius: 3px;
+        border-left: 0;
+        outline: none;
+    }
+
+    #sec-5-form button {
+        height: 50px;
+        width: 80px;
+        font-size:18px;
+        color: #ffdd00;
+        background: transparent;
+        border: 2px solid #ffdd00;
+        padding: 3px 5px;
+        margin-top: 15px;
+    }
+}
